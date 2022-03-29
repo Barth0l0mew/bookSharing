@@ -215,8 +215,7 @@ a.favorites::before {
   display: flex;
   justify-content: space-between;
 }
-.footer-container div {
-}
+
 .inf-footer {
   display: flex;
   flex-direction: column;
@@ -285,9 +284,15 @@ div.inf-footer > span {
     justify-content: flex-start;
     margin: 0px;
   }
-
+  .footer-container {
+    flex-wrap: wrap;
+  }
   .navigator {
     display: none;
+  }
+  .foto-book {
+    margin: 0 30px 0 0;
+    width: 100%;
   }
   .header-container,
   .book-container,
